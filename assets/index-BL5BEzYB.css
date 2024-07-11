@@ -1,1 +1,147 @@
-.bg{width:100%;height:100vh;background:linear-gradient(to top left,#5e3684,#2b0b48);z-index:-99;position:fixed;top:0;left:0}.hero__container{height:96vh;width:100%;z-index:99;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:20px;padding-top:7rem}.text__content{align-items:center;justify-content:center;display:flex;flex-direction:column;height:fit-content;width:80%;gap:30px}.title{color:#f0f8ff;text-align:center;font-size:3rem}.sub{color:#d3a1df;font-size:large;text-align:center}.buttons{background:transparent;display:flex;gap:10px;border:none}.button{height:36px;width:116px;cursor:pointer}.light_mode{background:linear-gradient(to left,#d6b9b9,#9d00ff);border-radius:5PX;color:#f0f8ff;border:none;box-shadow:0 1px 12px #6969af}.dark_mode{border:2px solid blueviolet;border-radius:5PX;background:transparent;color:#c797f3;box-shadow:0 1px 12px #6969af}.home_img{height:360px;width:460px;border-radius:19px;overflow:hidden}img{height:100%;width:100%;transition:.5s ease}.home_img:hover img{width:105%;height:110%}.image{filter:sepia(1.8)}@media screen and (max-width: 600px){.home_img{width:260px}.home_img:hover .image{height:105%}}.nav_list{list-style:none}.nav__items{display:inline;padding:12px}.navbar{display:flex;justify-content:center;align-items:center;height:60px;width:100%;background:#5f3ba6;box-shadow:5px 0 15px #5b0271;position:fixed;top:0;left:0}.navbar__container{display:flex;width:100%;height:100%;justify-content:space-around;align-items:center}.navbar__logo{background:linear-gradient(to left,#80f,#e6dbdb);-webkit-background-clip:text;-webkit-text-fill-color:transparent}*{box-sizing:border-box;padding:0%;margin:0;font-family:Calibri,Trebuchet MS,sans-serif}
+.bg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top left, #5e3684, #2b0b48);
+    z-index: -99;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+.hero__container {
+    height: 96vh;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 7rem
+}
+
+.text__content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    gap: 30px
+}
+
+.title {
+    color: #f0f8ff;
+    text-align: center;
+    font-size: 3rem
+}
+
+.sub {
+    color: #d3a1df;
+    font-size: large;
+    text-align: center
+}
+
+.buttons {
+    background: transparent;
+    display: flex;
+    gap: 10px;
+    border: none
+}
+
+.button {
+    height: 36px;
+    width: 116px;
+    cursor: pointer
+}
+
+.light_mode {
+    background: linear-gradient(to left, #d6b9b9, #9d00ff);
+    border-radius: 5PX;
+    color: #f0f8ff;
+    border: none;
+    box-shadow: 0 1px 12px #6969af
+}
+
+.dark_mode {
+    border: 2px solid blueviolet;
+    border-radius: 5PX;
+    background: transparent;
+    color: #c797f3;
+    box-shadow: 0 1px 12px #6969af
+}
+
+.home_img {
+    height: 360px;
+    width: 460px;
+    border-radius: 19px;
+    overflow: hidden
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    transition: .5s ease
+}
+
+.home_img:hover img {
+    width: 105%;
+    height: 110%
+}
+
+.image {
+    filter: sepia(1.8)
+}
+
+@media screen and (max-width: 600px) {
+    .home_img {
+        width: 260px
+    }
+
+    .home_img:hover .image {
+        height: 105%
+    }
+}
+
+.nav_list {
+    list-style: none
+}
+
+.nav__items {
+    display: inline;
+    padding: 12px
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background: #5f3ba6;
+    box-shadow: 5px 0 15px #5b0271;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+.navbar__container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center
+}
+
+.navbar__logo {
+    background: linear-gradient(to left, #80f, #e6dbdb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    font-family: Calibri, Trebuchet MS, sans-serif
+}
