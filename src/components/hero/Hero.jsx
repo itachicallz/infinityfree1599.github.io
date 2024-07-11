@@ -20,7 +20,7 @@ const Hero = ({ title }) => {
         </p>
         <button className="buttons">
           <Button placeholder='CALLS TELEGRAM' href='https://t.me/cryptoetherchicallz'/>
-          <Button placeholder='TWITTER' lightOrDark='dark_mode' href="google.com"/>
+          <Button placeholder='TWITTER' lightOrDark='dark_mode' href="https://x.com/crypto_itachica"/>
         </button>
       </div>
       <ImagBeat />
