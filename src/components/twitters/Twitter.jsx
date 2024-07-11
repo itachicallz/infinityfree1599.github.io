@@ -9,7 +9,7 @@ const Twitter = () => {
                     <a href="https://t.me/cryptoitachicalls"><box-icon type='logo' color="blueviolet"  name='telegram'></box-icon></a>
                 </li>
                 <li className="nav__items">
-                    <a href=""><box-icon type='logo' color="blueviolet" name='twitter'></box-icon></a>
+                    <a href="https://x.com/crypto_itachica"><box-icon type='logo' color="blueviolet" name='twitter'></box-icon></a>
                 </li>
             </ul>
         </>
